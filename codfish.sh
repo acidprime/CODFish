@@ -4,7 +4,7 @@
 
 # Edit the following settings to match your environment
 DRY_RUN=NO # set to "no" when you're ready to do this for real
-YOUR_USERNAME="abernajb"
+YOUR_USERNAME="bobsyouruncle"
 YOUR_OU="ou=ITS-Academic IT Services,ou=Information Technology Services,o=example"
 LDAP_SERVER="ldap://magis.example.loc"
 YOUR_PASSWORD="MacAD2010"
