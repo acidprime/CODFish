@@ -386,7 +386,7 @@ UpdateAugmentsFromFile(){
 		echo "" | $awk -v home_url="$HOME_URL" \
 		  -v home_path="$HOME_PATH" -v sn="$SHORT_NAME" -v ln="$REAL_NAME" -v uid="$UNIQUE_ID" -v group="$GROUP_NAME" -v uuid="$UUID" -v pgid="$PGID" '
 	BEGIN {
-		print "auth diradmin c@rd1n@ls" >> "/tmp/dsclcommands"
+		print "auth diradmin $OD_PASS" >> "/tmp/dsclcommands"
 	}
 	 {
 		printf("create /Augments/Users:%s RealName \"%s\"\n", sn, ln) >> "/tmp/dsclcommands"
